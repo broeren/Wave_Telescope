@@ -2,8 +2,12 @@
 Example code implementing the wave-telescope technique of wavevector identification. The model found in the [NEWTSS](https://github.com/broeren/NEWTSS) repo estiamtes the uncertainty in this estimation of wavevector depending on the geometry of the spacecraft configuration used.
 
 ## Application
-This code uses synthetic measurements from a four-spacecraft configuration that is a perfect tetrahedron. The spacecraft measure plane-waves of the form
-$ e^{i(2 \pi \omega t + \mathbf{k} \cdot \mathbf{r} + \phi)} $
+This code uses synthetic measurements from a four-spacecraft configuration that is a perfect tetrahedron. The spacecraft measure plane-waves (of magnetic fields) that are of the form
+```math
+ B(\mathbf{r}, t) = e^{i(2 \pi \omega t + \mathbf{k} \cdot \mathbf{r} + \phi)} .
+```
+It then uses the [wave-telescope technique](https://doi.org/10.1029/2021JA030165) to estimate the wavevector and frequency of the waves measured using only data collected by the spacecrafts. This estimation is done by computing the spectral energy density $P(\mathbf{k},\omega)$ for a range of wavevectors $\mathbf{k}$ and frequencies $\omega$.
+
 
 ```
 omega true: 5.49
