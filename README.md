@@ -21,8 +21,8 @@ k error: 0.64%
 ```
 We plot the spectral energy density over each of our four independent variables (frequency and 3 components of wavevector).
 
-<img src="Wave_Telescope/figures/WaveTelescope_Scan.png" alt="Example Scan" width="600"/>
+<img src="figures/WaveTelescope_Scan.png" alt="Example Scan" width="600"/>
 
 We see that there is a large spike at the true value of wavevector and frequency (highlighted with vertical dashed lines). In each of these subplots, the spectral energy density is integrated over the variables not shown. We can also plot a spherical heatmap to visualize the directional resolution that the correctly identified wavevector has in 3D space.
 
-<img src="Wave_Telescope/figures/directional_scan.png" alt="Directional Scan" width="600"/>
+<img src="figures/directional_scan.png" alt="Directional Scan" width="600"/>
