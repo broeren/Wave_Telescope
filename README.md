@@ -19,7 +19,7 @@ k true: [k_r, k_theta, k_phi] = [1.000,2.827,1.257]
 k found: [k_r, k_theta, k_phi] = [1.020,2.832,1.257] +/- [0.041,0.087,0.044]
 k error: 0.64% 
 ```
-We plot the spectral energy density over each of our four independent variables (frequency and 3 components of wavevector).
+We plot the spectral energy density over each of our four independent variables (frequency and 3 spherical components of wavevector).
 
 <p align="center">
 <img src="figures/WaveTelescope_Scan.png" alt="Example Scan" width="600"/>
